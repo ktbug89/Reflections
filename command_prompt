@@ -17,3 +17,12 @@ git commit                    # makes a commit of the files in the staging area
 git diff                      # shows difference between working directory and staging area
 git diff --staged             # shows what commit is about to be made
 git reset --hard              # removes changes made in the working directory and staging area
+git branch                    # list all branches in repository
+git branch <branch_name>      # creates a branch
+git log --graph --oneline master coins # show commit history between two branches
+git checkout -b <branch_name> # create and chackout new branch at the same time
+git merge <branch2> <branch3> # merges 1 branch into the other
+git show <commit_id>          # shows the difference between two commits when the parent commit id is unknown
+git branch -d <branch_name>   # deletes a branch
+git log --graph --oneline     # shows commit history w/ easy to read merge
+        
